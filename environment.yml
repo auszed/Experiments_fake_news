@@ -1,0 +1,20 @@
+name: nlp  # Name of the environment
+channels:
+  - defaults  # Channels from which to install the packages
+dependencies:
+  - python
+  - numpy
+  - pandas
+  - matplotlib
+  - pip
+  - nltk
+  - openpyxl
+  - transformers
+  - wordcloud
+  - pytorch
+  - scikit-learn
+  - seaborn
+  - plotly
+  - torch
+  - pip:
+    - requests
